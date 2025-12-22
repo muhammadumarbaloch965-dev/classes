@@ -17,7 +17,7 @@ body {
 
 header {
     position: absolute;
-    padding-right:50px;
+    padding-right: 50px;
     padding-left: 120px;
     top: 0;
     height: 70px;
@@ -34,13 +34,15 @@ header {
 
 
 }
-.cart{
+
+.cart {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-.cart-num{
+
+.cart-num {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +51,7 @@ header {
     width: 20px;
     background-color: yellow;
 }
-    
+
 
 
 .nav-bar {
@@ -97,7 +99,7 @@ h1 {
     margin: 20px 0px 10px;
 }
 
-.empty-section{
+.empty-section {
     height: 100vh;
     width: 100vw;
     color: black;
@@ -105,17 +107,21 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+
 }
-.empty-section div{
+
+.empty-section div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.brief{
+
+.brief {
     color: #4B4741;
 }
+
 .line {
 
     height: 3px;
@@ -124,17 +130,93 @@ h1 {
 
 
 }
-.hero{
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    flex-direction: column;
-    
-}
-.img{
+
+.hero {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small-images {
+    /* width: 100%; */
     flex-direction: row;
-    
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* reservations section */
+.reservations {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.section-header h1 {
+    color: #4B4741;  
+    font-size: 34px;
+}
+
+.section-header p {
+    font-size: 24px;
+    color: #777777;
+}
+
+
+.heading-dash {
+    margin: 20px 0;
+    height: 3px;
+    width: 113px;
+    background-color: #f9c56a;
+}
+
+.reservation-input-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.reservation-inputs {
+    height: 105px;
+    width: 357px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.reservation-inputs input {
+    all: unset;
+}
+.reservation-inputs div {
+    background-color: #f3f1ed;
+    height: 40px;
+    width: 326px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
