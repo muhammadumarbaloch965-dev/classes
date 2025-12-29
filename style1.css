@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.RESERVATION {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.header-reservation {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-reservation h1 {
+    font-size: 35px;
+    color: #e76138;
+}
+
+.header-reservation p {
+    font-size: 20px;
+    color: burlywood;
+
+}
+
+.dash-line {
+    height: 3px;
+    background: orange;
+    width: 113px;
+}
+
+.grid {
+    height: 40vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    border: 1px solid #f3f1ed;
+
+}
+
+.grids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Josefin sans";
+    color: #333333;
+    font-size: 18px;
+
+}
+
+.grids div {
+    background-color: #f3f1ed;
+    font-family: "Josefin sans";
+    height: 40px;
+    width: 326px;
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: ; */
+    border-color: #f3f1ed;
+}
+
+.grids input {
+    background: #f3f1ed;
+    height: 40%;
+    width: 326px;
+    border: 0.1px #f3f1ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
