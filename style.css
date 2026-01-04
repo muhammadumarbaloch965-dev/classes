@@ -550,7 +550,7 @@ button{
 
 
 .trusted{
-    height: 828px;
+    height: 628px;
     width: 1088px;
     display:flex ;
     justify-content: center;
@@ -589,4 +589,116 @@ button{
     flex-direction: row;
     gap: 5%;
 
+}
+
+.quote{
+margin-left: 30%;
+
+}
+.worlds{
+    font-size: 31px;
+    font-family: 'Josefin-sans' , 'sans-serif';
+    font-style: normal;
+    margin: 20px;
+    color: #f3f1ed;
+    background-image: url(/img/OIP\ \(1\).webp) ;
+    background-size: cover;
+}
+
+.instagram{
+    height: 220;
+    width: 1088;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.inst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.inst h1{
+    font-size: 36px;
+    color: #4B4741;
+    font-family: 'raleway' ,'sans-serif'
+    
+}
+.inst p{
+    font-size: 26px;
+    font-family: 'josefin-sans' , 'sans-serif';
+
+
+}
+
+.subscribe{
+    margin-top: 4%;
+    height: 206;
+    width: 1088;
+    background: #f7f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub h1{
+    font-size: 45px;
+    color: #4B4741;
+    font-weight: 300;
+    font-family: 'raleway';
+}
+.sub p{
+    font-size: 22px;
+    color: #828281;
+    font-family: 'josefin-sans';
+}
+
+input{
+    height: 46px;
+    width: 254px;
+    border-color: #f9c56a;
+    background: #f3f1ed;
+    
+
+    
+    
+    margin: 30px;
+    
+
+    
+    
+}
+
+.footer{
+    height: 435px;
+    width: 1088px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.head h1{
+    color:#f9c56a;
+    font-Size:18px;
+    font-family: 'raleway' , 'sans-serif';
+}
+.head p{
+    list-style: 4;
 }
